@@ -4,7 +4,7 @@ public class Passenger {
     private int bags;
     private boolean ex_weight;
     private boolean checked_in;
-    
+
 
     public Passenger(String name, int bags, boolean ex_weight) {
         this.name = name;
@@ -39,9 +39,9 @@ public class Passenger {
     public int getTotalWeight() {
         int extra = 0;
         if (this.ex_weight == true){
-            extra = 40;
+            extra = 50;
         }
-        return (70 + (20 * this.bags) + extra);
+        return (80 + (50 * this.bags) + extra);
     }
 
     public void checkIn() {

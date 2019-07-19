@@ -32,7 +32,7 @@ public class PassengerTest {
 
     @Test
     public void canGetTotalWeight() {
-        assertEquals(110, passengerA.getTotalWeight());
+        assertEquals(180, passengerA.getTotalWeight());
     }
 
     @Test
