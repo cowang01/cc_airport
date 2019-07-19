@@ -4,6 +4,7 @@ public class Passenger {
     private int bags;
     private boolean ex_weight;
     private boolean checked_in;
+    
 
     public Passenger(String name, int bags, boolean ex_weight) {
         this.name = name;
